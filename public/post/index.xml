@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My Learning Notebook</title>
-    <link>https://hanx11.github.io/myblog/post/</link>
+    <link>https://hanx11.github.io/blog/post/</link>
     <description>Recent content in Posts on My Learning Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
     <lastBuildDate>Mon, 15 Jan 2018 14:52:59 +0800</lastBuildDate>
     
-	<atom:link href="https://hanx11.github.io/myblog/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hanx11.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How MySQL Uses Indexes</title>
-      <link>https://hanx11.github.io/myblog/post/how-mysql-use-index/</link>
+      <link>https://hanx11.github.io/blog/post/how-mysql-use-index/</link>
       <pubDate>Mon, 15 Jan 2018 14:52:59 +0800</pubDate>
       
-      <guid>https://hanx11.github.io/myblog/post/how-mysql-use-index/</guid>
+      <guid>https://hanx11.github.io/blog/post/how-mysql-use-index/</guid>
       <description>Indexes are used to find rows with specific column values quickly. Without an index, MySQL must begin with the first row and then read through the entire table to find the relevant rows. The larger the table, the more this costs. If the table has an index for the columns in question, MySQL can quickly determine the position to seek to in the middle of the data file without having to look at all the data.</description>
     </item>
     
     <item>
       <title>How special methods are used in Python</title>
-      <link>https://hanx11.github.io/myblog/post/how-special-methods-are-used-in-python/</link>
+      <link>https://hanx11.github.io/blog/post/how-special-methods-are-used-in-python/</link>
       <pubDate>Mon, 15 Jan 2018 14:52:59 +0800</pubDate>
       
-      <guid>https://hanx11.github.io/myblog/post/how-special-methods-are-used-in-python/</guid>
+      <guid>https://hanx11.github.io/blog/post/how-special-methods-are-used-in-python/</guid>
       <description>The first thing to know about special methods is that they are meant to be called by the Python interpreter, and not by you.
 You don&amp;rsquo;t write my_object.__len__(). You write len(my_object) and, if my_object is an instance of a user definded class, then Python calls the __len__ instance method you implemented.
 首先，关于特殊方法，你需要知道的是它们是用来被Python解释器调用的，而不是你。你不应该这样写 my_object.__len__(), 而应该这样写 len(my_object), 如果 my_object 是一个用户定义的类, Python解释器会调用你实现的 __len__() 方法。  But for built-in types like list, str, bytearray etc.</description>
