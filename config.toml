@@ -1,4 +1,4 @@
-baseURL = "https://hanx11.github.io/myblog"
+baseURL = "https://hanx11.github.io/blog"
 title = "My Learning Notebook"
 canonifyurls = true
 paginate = 10
