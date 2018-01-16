@@ -2,7 +2,7 @@
 title: "How special methods are used in Python"
 tags: ["Python", "Special Methods"]
 date: 2018-01-15T14:52:59+08:00
-draft: true
+#draft: true
 ---
 
 The first thing to know about special methods is that they are meant to be called by the Python interpreter, and not by you. 
