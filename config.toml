@@ -4,6 +4,7 @@ canonifyurls = true
 paginate = 10
 theme = "startbootstrap-clean-blog"
 languageCode = "en-us"
+publishdir = "public"
 copyright = "Code released under the Apache 2.0 license."
 
 [author]
